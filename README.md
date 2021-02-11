@@ -8,7 +8,6 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 
 **Solution: The best performing model was a logisitc regression model with hyper parameters '--C' = '1' and '--max-iter' = '120' with an accuracy of 0.9121396054628225.**
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
 ## Scikit-learn Pipeline
 **Pipeline Architecture: We first created a compute instance to spin up a virtual machine and provision correct resources for that virtual machine. Once a compute instance is created we used it to launch a jupyter notebook which is used to access the existing workspace, create an experiment and a compute cluster(or find an existing one).**
@@ -35,6 +34,26 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 
 ## Future work
 **In future experiments for azure ml using Python SDK I would like to try out other scikit-learn models for classification and see if we can improve the accuracy. For autoML I will retrieve the top features from the model explanation and then reduce the number of features by using the top features. I would also like to experiment with number of cross validations(CV) and see if reducing the number affects the accuracy.This is because higher value of CV results in longer training time and thus increases cost. On the other hand very small values of CV will lead to over-fitting. I would also like to explore how to deal with class-imbalance issue.**
+
+## Conclusion
+ accuracy 0.9172230652503793
+precision_score_weighted 0.9105383462186205
+f1_score_weighted 0.9127333454438431
+average_precision_score_weighted 0.9551784513017874
+f1_score_micro 0.9172230652503792
+recall_score_weighted 0.9172230652503793
+average_precision_score_micro 0.981282567861212
+precision_score_macro 0.8039318443725605
+AUC_micro 0.9805943444451863
+f1_score_macro 0.7696017858344382
+AUC_weighted 0.9464781096805056
+norm_macro_recall 0.4886167882617577
+weighted_accuracy 0.9601365518118483
+recall_score_micro 0.9172230652503793
+average_precision_score_macro 0.8244775730946003
+AUC_macro 0.9464781096805055
+balanced_accuracy 0.7443083941308788
+recall_score_macro 0.7443083941308788
 
 ## Proof of cluster clean up
 **Compute cluster was deleted.**
