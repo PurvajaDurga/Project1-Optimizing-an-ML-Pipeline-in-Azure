@@ -37,3 +37,5 @@
 
 ## Proof of cluster clean up
 **Compute cluster was deleted.**
+![alt text](https://github.com/PurvajaDurga/Project1-Optimizing-an-ML-Pipeline-in-Azure/blob/main/images/cluster%20deleted.JPG)
+
