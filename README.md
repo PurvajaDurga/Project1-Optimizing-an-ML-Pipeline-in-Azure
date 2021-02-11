@@ -6,7 +6,6 @@
 ## Summary
 **Problem Statement: We will analyse the bank marketing dataset and train it to determine whether a customer will make a term deposit or not. We can determine the features which influence the outcome so that in our next marketing campaign we can identify the target customers who have a higher probability of converting and making a term deposit. The label "y" tells us whether a customer is subscribed to a term deposit or not and this is the target column for predictions.**
 
-**Solution: The best performing model was a logisitc regression model with hyper parameters '--C' = '1' and '--max-iter' = '120' with an accuracy of 0.9121396054628225.**
 
 
 ## Scikit-learn Pipeline
