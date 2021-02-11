@@ -1,7 +1,7 @@
 # Optimizing an ML Pipeline in Azure
 
 ## Overview
-This project is part of the Udacity Azure ML Nanodegree. In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.
+**This project is part of the Udacity Azure ML Nanodegree. In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.**
 
 ## Summary
 **Problem Statement: We will analyse the bank marketing dataset and train it to determine whether a customer will make a term deposit or not. We can determine the features which influence the outcome so that in our next marketing campaign we can identify the target customers who have a higher probability of converting and making a term deposit. The label "y" tells us whether a customer is subscribed to a term deposit or not and this is the target column for predictions.**
@@ -35,25 +35,6 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 ## Future work
 **In future experiments for azure ml using Python SDK I would like to try out other scikit-learn models for classification and see if we can improve the accuracy. For autoML I will retrieve the top features from the model explanation and then reduce the number of features by using the top features. I would also like to experiment with number of cross validations(CV) and see if reducing the number affects the accuracy.This is because higher value of CV results in longer training time and thus increases cost. On the other hand very small values of CV will lead to over-fitting. I would also like to explore how to deal with class-imbalance issue.**
 
-## Conclusion
- accuracy 0.9172230652503793
-precision_score_weighted 0.9105383462186205
-f1_score_weighted 0.9127333454438431
-average_precision_score_weighted 0.9551784513017874
-f1_score_micro 0.9172230652503792
-recall_score_weighted 0.9172230652503793
-average_precision_score_micro 0.981282567861212
-precision_score_macro 0.8039318443725605
-AUC_micro 0.9805943444451863
-f1_score_macro 0.7696017858344382
-AUC_weighted 0.9464781096805056
-norm_macro_recall 0.4886167882617577
-weighted_accuracy 0.9601365518118483
-recall_score_micro 0.9172230652503793
-average_precision_score_macro 0.8244775730946003
-AUC_macro 0.9464781096805055
-balanced_accuracy 0.7443083941308788
-recall_score_macro 0.7443083941308788
 
 ## Proof of cluster clean up
 **Compute cluster was deleted.**
