@@ -13,17 +13,17 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, we bui
 ## Scikit-learn Pipeline
 **Pipeline Architecture: We first created a compute instance to spin up a virtual machine and provision correct resources for that virtual machine. Once a compute instance is created we used it to launch a jupyter notebook which is used to access the existing workspace, create an experiment and a compute cluster(or find an existing one).**
 
-**Data: We created a Tabular Dataset from a delimited file behind a public web url. Next we have used the clean data function to clean our data. Since machine learning models accept only numerical data we will convert months and weekdays into numbers, and one hot encode non numeric features.
+**Data: We created a Tabular Dataset from a delimited file behind a public web url. Next we have used the clean data function to clean our data. Since machine learning models accept only numerical data we will convert months and weekdays into numbers, and one hot encode non numeric features.**
 
-**Hyperparameters: The hyper parameters which are tuned in this model are C (which is inverse of regularization strength) and max-iter.
+**Hyperparameters: The hyper parameters which are tuned in this model are C (which is inverse of regularization strength) and max-iter.**
 
-**Algorithm: Our classification algorithm is Logistic Regression
+**Algorithm: Our classification algorithm is Logistic Regression**
 
-**What are the benefits of the parameter sampler you chose?
+**What are the benefits of the parameter sampler you chose?**
 
-**We have used Random Parameter sampling as it supports both discrete and continuous parameters and also early termination of low performance runs. In Random Sampling hyper parameter values are chosen randomly from the defined limits.
+**We have used Random Parameter sampling as it supports both discrete and continuous parameters and also early termination of low performance runs. In Random Sampling hyper parameter values are chosen randomly from the defined limits.**
 
-**What are the benefits of the early stopping policy you chose?
+**What are the benefits of the early stopping policy you chose?**
 
 **The early stopping policy chosen for this ML Pipeline Bandit Policy and the reason for choosing this is that the comparsion is based on best performing run hence runs which have a huge difference from the best performing training run are terminated. Slack factor or slack amount defines the allowable slack in primary metric.**
 
